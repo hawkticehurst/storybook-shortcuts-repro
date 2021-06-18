@@ -1,0 +1,26 @@
+{
+  "name": "storybook-repro",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "start-storybook -p 6006",
+    "build": "build-storybook"
+  },
+  "dependencies": {
+    "@microsoft/fast-element": "^1.4.0",
+    "@microsoft/fast-foundation": "^1.24.6",
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@storybook/addon-a11y": "^6.2.9",
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/html": "^6.2.9",
+    "babel-loader": "^8.2.2",
+    "prettier": "^2.3.1",
+    "typescript": "^4.3.4",
+    "webpack": "^4.46.0"
+  }
+}
